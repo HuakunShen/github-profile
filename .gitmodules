@@ -1,0 +1,3 @@
+[submodule "vendors/github-graphql"]
+	path = vendors/github-graphql
+	url = https://github.com/HuakunShen/github-graphql.git

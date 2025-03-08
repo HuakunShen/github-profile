@@ -7,5 +7,15 @@
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
-  }
+  },
+  "dependencies": {
+    "@hk/ossinsight-client": "npm:@jsr/hk__ossinsight-client",
+    "github-graphql": "workspace:*",
+    "octokit": "^4.1.2",
+    "p-limit": "^6.2.0",
+    "zod": "^3.24.2"
+  },
+  "workspaces": [
+    "vendors/*"
+  ]
 }
